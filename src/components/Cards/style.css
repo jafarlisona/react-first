@@ -1,0 +1,13 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 70px;
+    overflow-y: scroll;
+    max-height: 750px;
+}
+::-webkit-scrollbar {
+    width: 0;  
+    background: transparent;  
+}
